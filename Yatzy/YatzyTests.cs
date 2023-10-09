@@ -7,11 +7,11 @@ public class Tests
     {
     }
 
-    [Test]
-    public void Chance()
+    [TestCase(5, 1, 1, 1, 1, 1)]
+    public void Chance(int expected, int die1, int die2, int die3, int die4, int die5)
     {
         // Arrange
-        var diceRolls = new[] { 1, 1, 1, 1, 1 };
+        var diceRolls = new[] { die1, die2, die3, die4, die5 };
         var yatzyScorer = new YatzyScorer();
         
         // Act
