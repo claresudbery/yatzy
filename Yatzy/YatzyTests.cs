@@ -18,6 +18,6 @@ public class Tests
         var result = yatzyScorer.Chance(diceRolls);
         
         // Assert
-        Assert.AreEqual(5, result);
+        Assert.AreEqual(expected, result);
     }
 }
