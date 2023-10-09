@@ -21,11 +21,3 @@ public class Tests
         Assert.AreEqual(5, result);
     }
 }
-
-public class YatzyScorer
-{
-    public int Chance(int[] diceRolls)
-    {
-        return 5;
-    }
-}
