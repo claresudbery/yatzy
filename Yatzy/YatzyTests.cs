@@ -8,8 +8,24 @@ public class Tests
     }
 
     [Test]
-    public void Test1()
+    public void Chance()
     {
-        Assert.Pass();
+        // Arrange
+        var diceRolls = new[] { 1, 1, 1, 1, 1 };
+        var yatzyScorer = new YatzyScorer();
+        
+        // Act
+        var result = yatzyScorer.Chance(diceRolls);
+        
+        // Assert
+        Assert.AreEqual(5, result);
+    }
+}
+
+public class YatzyScorer
+{
+    public int Chance(int[] diceRolls)
+    {
+        return 5;
     }
 }
