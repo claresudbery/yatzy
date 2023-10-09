@@ -8,6 +8,7 @@ public class Tests
     }
 
     [TestCase(5, 1, 1, 1, 1, 1)]
+    [TestCase(17, 1, 2, 3, 5, 6)]
     public void Chance(int expected, int die1, int die2, int die3, int die4, int die5)
     {
         // Arrange
