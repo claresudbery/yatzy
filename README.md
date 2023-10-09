@@ -1,0 +1,2 @@
+# yatzy
+Simple yatzy kata
