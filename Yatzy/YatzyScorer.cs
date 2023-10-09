@@ -4,6 +4,6 @@ public class YatzyScorer
 {
     public int Chance(int[] diceRolls)
     {
-        return 5;
+        return diceRolls.Sum();
     }
 }
